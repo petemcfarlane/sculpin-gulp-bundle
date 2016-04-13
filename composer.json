@@ -1,7 +1,6 @@
 {
     "name": "petemc/sculpin-gulp-bundle",
     "description": "Run gulp tasks with sculpin generate",
-    "type": "Sculpin extension",
     "require-dev": {
         "sculpin/sculpin": "^2.0",
         "phpspec/phpspec": "^2.5"
