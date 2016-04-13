@@ -1,0 +1,22 @@
+{
+    "name": "petemc/sculpin-gulp-bundle",
+    "description": "Run gulp tasks with sculpin generate",
+    "type": "Sculpin extension",
+    "require-dev": {
+        "sculpin/sculpin": "^2.0",
+        "phpspec/phpspec": "^2.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pete McFarlane",
+            "email": "peterjohnmcfarlane@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "PeteMc\\Sculpin\\SculpinGulpBundle\\": "src/PeteMc/Sculpin/SculpinGulpBundle/"
+        }
+    }
+}
